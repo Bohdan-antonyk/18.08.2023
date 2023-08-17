@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: chocolate;
+  border: 2px solid black;
+  transition: 0.1s ease;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .circle:hover {
+  cursor: pointer;
+}
+body .circle .eye {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
